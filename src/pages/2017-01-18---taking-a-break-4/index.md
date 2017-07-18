@@ -22,7 +22,7 @@ Patrick arrived in the late afternoon, but Arnold had not found space for him in
 
 ![](tent.jpg)
 
-Initially, we sat sideways with everyone in the tent. Slowly and uncomfortably, Patrick and I slid halfway out the door and Grace curled up at the foot. I didn’t sleep at all, vigilant for any shift in the taut guy lines until others tents began to stir with activity.
+Initially, we sat sideways with everyone in the tent. Slowly and uncomfortably, Patrick and I slid halfway out the door and Grace curled up at the foot. I didn’t sleep at all, vigilant for any shift in the taut guy lines until others’ tents began to stir with activity.
 
 By midnight, we were en route and quickly joined the conga line on the gray tower. Steep snow, mixed climbing, and even overhanging ice steps made for some of the most enjoyable climbing of the trip.
 
