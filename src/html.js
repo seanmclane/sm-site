@@ -29,6 +29,7 @@ class HTML extends React.Component {
     }
 
     return (
+      <!DOCTYPE html>
       <html lang="en">
         <head>
           <link
