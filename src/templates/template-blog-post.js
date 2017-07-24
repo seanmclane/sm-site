@@ -74,6 +74,12 @@ class BlogPostRoute extends React.Component {
             alignItems: `center`,
           }}
         >
+        <Link 
+          to="/about"
+          css = {{
+            minWidth: `60px`,
+          }}
+        >
           <img
             alt={`Avatar of ${post.frontmatter.author.id}`}
             src={
@@ -91,12 +97,14 @@ class BlogPostRoute extends React.Component {
               marginBottom: 0,
             }}
           />
+        </Link>
           <span
             css={{
               color: styles.colors.light,
               ...scale(-1 / 5),
             }}
           >
+            <Link to="/about">
             <small
               css={{
                 fontWeight: `bold`,
@@ -106,6 +114,7 @@ class BlogPostRoute extends React.Component {
             >
               {post.frontmatter.author.id}
             </small>
+            </Link>
             {` `}
             {post.frontmatter.author.bio}
           </span>

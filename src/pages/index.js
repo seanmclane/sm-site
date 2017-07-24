@@ -21,7 +21,16 @@ class Index extends React.Component {
               marginBottom: rhythm(2),
             }}
           >
-            On a mission to move fast, climb hard, and put up high-alpine first ascents 
+            On a{` `}
+            <Link
+              to="/about"
+              css={{
+
+              }}
+            >
+             mission 
+            </Link>
+            {` `}to move fast, climb hard, and put up high-alpine first ascents 
           </h1>
           <ul
             css={{
@@ -69,7 +78,7 @@ export const pageQuery = graphql`
       }
     }
     allMarkdownRemark(
-      limit: 2000
+      limit: 20
       sort: { fields: [frontmatter___date], order: DESC }
       filter: { frontmatter: { draft: { ne: true } } }
     ) {

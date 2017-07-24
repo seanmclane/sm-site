@@ -8,8 +8,8 @@ const colors = {
   smoke: `hsla(${baseHsl},0.1)`,
   whiteSmoke: `hsla(${baseHsl},0.02)`,
   white: `#fff`,
-  link: `#527a7a`,
-  linkHover: `#669999`,
+  link: `#5eb1b1`,
+  linkHover: `#5bcece`,
 }
 
 export default { colors, baseHsl }

@@ -3,6 +3,10 @@ import { TypographyStyle } from "react-typography"
 
 import typography from "./utils/typography"
 
+import f16 from "./favicon-16x16.png"
+import f32 from "./favicon-32x32.png"
+import f96 from "./favicon-96x96.png"
+
 let stylesStr
 if (process.env.NODE_ENV === `production`) {
   try {
@@ -60,6 +64,9 @@ class HTML extends React.Component {
             href={`/static/space-mono-latin-700.eadcd2d5.woff2`}
           />
           {this.props.headComponents}
+          <link rel="icon" type="image/png" sizes="32x32" href={f32}/>
+          <link rel="icon" type="image/png" sizes="96x96" href={f96}/>
+          <link rel="icon" type="image/png" sizes="16x16" href={f16}/>
           <meta charSet="utf-8" />
           <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
           <meta
