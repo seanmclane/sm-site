@@ -67,6 +67,7 @@ class HTML extends React.Component {
           <link rel="icon" type="image/png" sizes="32x32" href={f32}/>
           <link rel="icon" type="image/png" sizes="96x96" href={f96}/>
           <link rel="icon" type="image/png" sizes="16x16" href={f16}/>
+          <title>Sean McLane</title>
           <meta charSet="utf-8" />
           <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
           <meta
