@@ -3,8 +3,6 @@ version: 0.1
 phases:
   install:
     commands:
-      - echo Installing yarn
-      - apt-get install yarn
       - echo Installing gatsby
       - yarn global add gatsby
   pre_build:
