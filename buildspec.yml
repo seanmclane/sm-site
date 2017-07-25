@@ -4,7 +4,7 @@ phases:
   install:
     commands:
       - echo Installing gatsby
-      - yarn install -g gatsby
+      - yarn global add gatsby
   pre_build:
     commands:
       - echo Installing node_modules
