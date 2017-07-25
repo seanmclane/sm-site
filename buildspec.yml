@@ -1,0 +1,22 @@
+version: 0.1
+
+phases:
+  install:
+    commands:
+      - echo Installing gatsby
+      - npm install -g gatsby
+  pre_build:
+    commands:
+      - echo Installing node_modules
+      - npm install
+  build:
+    commands:
+      - echo Build started on `date`
+      - echo Building seanmclane.com
+      - mocha HelloWorld.js
+  post_build:
+    commands:
+      - echo Build completed on `date`
+artifacts:
+  files:
+    - 'public/**/*'
