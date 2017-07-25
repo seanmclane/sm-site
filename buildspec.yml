@@ -3,12 +3,14 @@ version: 0.1
 phases:
   install:
     commands:
+      - echo Installing yarn
+      - apt-get install yarn
       - echo Installing gatsby
-      - npm install -g gatsby
+      - yarn install -g gatsby
   pre_build:
     commands:
       - echo Installing node_modules
-      - npm install
+      - yarn install
   build:
     commands:
       - echo Build started on `date`
