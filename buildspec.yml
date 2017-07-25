@@ -13,10 +13,11 @@ phases:
     commands:
       - echo Build started on `date`
       - echo Building seanmclane.com
-      - mocha HelloWorld.js
+      - gatsby build
   post_build:
     commands:
       - echo Build completed on `date`
 artifacts:
   files:
-    - 'public/**/*'
+    - '**/*'
+  base-directory: public
