@@ -40,7 +40,7 @@ class AboutPageRoute extends React.Component {
               <a href="">Link to Instagram</a>
             </li>
             <li>
-              <a href="https://www.mountainproject.com/u/smm//108959833"><img width=32 height=32 src="https://www.mountainproject.com/favicon.ico" /></a>
+              <a href='https://www.mountainproject.com/u/smm//108959833'><img width=32 height=32 src='https://www.mountainproject.com/favicon.ico' /></a>
             </li>
             <li>
               <a href="">Link to Github</a>
