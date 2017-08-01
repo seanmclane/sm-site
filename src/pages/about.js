@@ -20,7 +20,7 @@ class AboutPageRoute extends React.Component {
               marginBottom: rhythm(2),
             }}
           >
-            {"I can't claim to be the fastest, the strongest, or the most badass. But every day I try to move one step closer."}
+            I can't claim to be the fastest, the strongest, or the most badass. But every day I try to move one step closer.
           </h1>
           <img 
             src={aboutImage}
@@ -40,7 +40,7 @@ class AboutPageRoute extends React.Component {
               <a href="">Link to Instagram</a>
             </li>
             <li>
-              <a href={"https://www.mountainproject.com/u/smm//108959833"}><img width=32 height=32 src={"https://www.mountainproject.com/favicon.ico"} /></a>
+              <a href="https://www.mountainproject.com/u/smm//108959833"><img width="32" height="32" src="https://www.mountainproject.com/favicon.ico" /></a>
             </li>
             <li>
               <a href="">Link to Github</a>
@@ -55,7 +55,7 @@ class AboutPageRoute extends React.Component {
           I have to do this again.
           </blockquote>
           <p>          
-            {"In the four years since, I've been back to altitude without issue in Peru, lead WI5 in Canada, onsighted 5.11 in the Creek, and soloed the Grand Teton in under six hours. I feel proud of those accomplishments as stepping stones to the aesthetic lines that fill my dreams."}
+            In the four years since, I've been back to altitude without issue in Peru, lead WI5 in Canada, onsighted 5.11 in the Creek, and soloed the Grand Teton in under six hours. I feel proud of those accomplishments as stepping stones to the aesthetic lines that fill my dreams.
           </p>
         </div>
       </div>
