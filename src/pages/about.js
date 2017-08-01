@@ -33,6 +33,7 @@ class AboutPageRoute extends React.Component {
             css = {{
               textDecoration: `none`,
               marginBottom: rhythm(2),
+              marginLeft: `0`,
               display: `flex`,
               flexWrap: `wrap`,
               justifyContent: `space-around`,
