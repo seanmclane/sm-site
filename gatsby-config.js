@@ -32,6 +32,12 @@ module.exports = {
         ],
       },
     },
+    {
+      resolve: `gatsby-plugin-typography`,
+      options: {
+        pathToConfigModule: `src/utils/typography.js`,
+      },
+    },
     `gatsby-transformer-yaml`,
     `gatsby-plugin-sharp`,
     `gatsby-plugin-catch-links`,
