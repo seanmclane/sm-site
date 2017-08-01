@@ -1,7 +1,4 @@
 import React from "react"
-import { TypographyStyle } from "react-typography"
-
-import typography from "./utils/typography"
 
 import f16 from "./favicon-16x16.png"
 import f32 from "./favicon-32x32.png"
@@ -75,7 +72,6 @@ class HTML extends React.Component {
             name="viewport"
             content="width=device-width, initial-scale=1.0"
           />
-          <TypographyStyle typography={typography} />
           {css}
         </head>
         <body>
