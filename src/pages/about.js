@@ -32,8 +32,11 @@ class AboutPageRoute extends React.Component {
           <ul
             css = {{
               textDecoration: `none`,
-              /* need to remove underline*/
               marginBottom: rhythm(2),
+              display: `flex`,
+              flexWrap: `wrap`,
+              justifyContent: `center`,
+              listStyle: `none`,
             }}
           >
             <li>
