@@ -10,6 +10,8 @@ phases:
       - apt-get install -y yarn
       - echo Installing node_modules
       - yarn install
+      - echo Installing gatsby
+      - yarn global add gatsby
   build:
     commands:
       - echo Build started on `date`
