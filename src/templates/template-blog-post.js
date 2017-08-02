@@ -44,6 +44,9 @@ class BlogPostRoute extends React.Component {
       >
         <Helmet>
           <title>{`Sean McLane | ${post.frontmatter.title}`}</title>
+          <meta property="og:title" content={`"Sean McLane | ${post.frontmatter.title}"`}/>
+          <meta property="og:site_name" content="Sean McLane"/>
+          <meta property="og:description" content={post.excerpt} />
         </Helmet>
 
         <header>
@@ -136,6 +139,7 @@ export const pageQuery = graphql`
     markdownRemark(fields: { slug: { eq: $slug } }) {
       html
       timeToRead
+      excerpt
       fields {
         tagSlugs
       }

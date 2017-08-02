@@ -1,18 +1,27 @@
 import React from "react"
+import {Helmet} from "react-helmet"
 import Link from "gatsby-link"
 import styles from "../styles"
 import presets from "../utils/presets"
 import { rhythm, scale } from "../utils/typography"
 
+import shan from "../layouts/shan-icon.png"
+
 class Index extends React.Component {
   render() {
     const posts = this.props.data.allMarkdownRemark.edges
     const author = this.props.data.site.siteMetadata.author
-    const authorTitle = this.props.data.site.siteMetadata.authorTitle
+    const title = this.props.data.site.siteMetadata.title
     const description = this.props.data.site.siteMetadata.description
 
     return (
       <div>
+        <Helmet>
+          <meta property="og:title" content={title}/>
+          <meta property="og:image" content={shan}/>
+          <meta property="og:site_name" content={title}/>
+          <meta property="og:description" content={description} />
+        </Helmet>
         <div>
           <h1
             css={{
