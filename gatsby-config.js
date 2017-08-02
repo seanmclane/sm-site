@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `Sean McLane`,
     author: `Sean McLane`,
-    description: `Personal site of Sean McLane, alpinist`,
+    description: `The personal website of Sean McLane, alpinist`,
   },
   mapping: {
     "MarkdownRemark.frontmatter.author": `AuthorYaml`,
@@ -48,5 +48,6 @@ module.exports = {
     `gatsby-plugin-sharp`,
     `gatsby-plugin-catch-links`,
     `gatsby-plugin-glamor`,
+    `gatsby-plugin-react-helmet`,
   ],
 }

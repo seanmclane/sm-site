@@ -13,12 +13,16 @@ import g from "./github.png"
 
 class AboutPageRoute extends React.Component {
   render() {
-    const author = this.props.data.site.siteMetadata.author
+    const title = this.props.data.site.siteMetadata.title
 
     return (
       <div>
         <Helmet>
           <title>Sean McLane | About</title>
+          <meta property="og:title" content="Sean McLane | About"/>
+          <meta property="og:image" content={aboutImage}/>
+          <meta property="og:site_name" content={title}/>
+          <meta property="og:description" content="Read all about Sean McLane" />
         </Helmet>
         <div>
           <h1
@@ -81,7 +85,8 @@ export const pageQuery = graphql`
   query AboutQuery {
     site {
       siteMetadata {
-        author
+        title
+        description
       }
     }
   }
