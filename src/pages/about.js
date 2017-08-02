@@ -7,6 +7,10 @@ import { rhythm, scale } from "../utils/typography"
 
 import aboutImage from "./posts/2017-01-18---taking-a-break-4/slab.jpg"
 
+import i from "./instagram.png"
+import m from "./mountainproject.png"
+import g from "./github.png"
+
 class AboutPageRoute extends React.Component {
   render() {
     const author = this.props.data.site.siteMetadata.author
@@ -45,13 +49,13 @@ class AboutPageRoute extends React.Component {
             }}
           >
             <li>
-              <a href="https://www.instagram.com/seanmshan/"><img width="32" height="32" src="https://www.instagram.com/favicon.ico" /></a>
+              <a href="https://www.instagram.com/seanmshan/"><img width="32" height="32" src={i} /></a>
             </li>
             <li>
-              <a href="https://www.mountainproject.com/u/smm//108959833"><img width="32" height="32" src="https://www.mountainproject.com/favicon.ico" /></a>
+              <a href="https://www.mountainproject.com/u/smm//108959833"><img width="32" height="32" src={m} /></a>
             </li>
             <li>
-              <a href="https://github.com/seanmclane"><img width="32" height="32" src="https://www.github.com/favicon.ico" /></a>
+              <a href="https://github.com/seanmclane"><img width="32" height="32" src={g} /></a>
             </li>
 
           </ul>
