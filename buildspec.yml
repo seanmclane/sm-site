@@ -3,6 +3,8 @@ version: 0.1
 phases:
   pre_build:
     commands:
+      - echo Installing yarn
+      - apt-get install yarn
       - echo Installing node_modules
       - yarn install
   build:
