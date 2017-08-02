@@ -1,4 +1,4 @@
-version: 0.1
+version: 0.2
 
 phases:
   pre_build:
@@ -14,11 +14,9 @@ phases:
       - yarn global add gatsby
   build:
     commands:
-      - echo Build started on `date`
       - echo Building seanmclane.com
       - gatsby build
   post_build:
     commands:
       - echo "******** Uploading to S3 ********"
-      - aws s3 sync public/ s3://dev.seanmclane.com
-      - echo Build completed on `date`
+      - aws s3 sync --delete public/ s3://${BUCKET_NAME}
