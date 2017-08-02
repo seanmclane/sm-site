@@ -19,4 +19,4 @@ phases:
   post_build:
     commands:
       - echo "******** Uploading to S3 ********"
-      - aws s3 sync --delete public/ s3://{BUCKET_NAME}
+      - aws s3 sync public/ "s3://${BUCKET_NAME}""
