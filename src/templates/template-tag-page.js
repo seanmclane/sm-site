@@ -1,4 +1,5 @@
 import React from "react"
+import {Helmet} from "react-helmet"
 import Link from "gatsby-link"
 
 class TagRoute extends React.Component {
@@ -14,6 +15,9 @@ class TagRoute extends React.Component {
 
     return (
       <div>
+        <Helmet>
+          <title>{`Sean McLane | Posts tagged with “${this.props.pathContext.tag}”`}</title>
+        </Helmet>
         <h1>
           {this.props.data.allMarkdownRemark.totalCount}
           {` `}posts tagged with “{this.props.pathContext.tag}”

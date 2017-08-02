@@ -1,4 +1,5 @@
 import React from "react"
+import {Helmet} from "react-helmet"
 import Link from "gatsby-link"
 import styles from "../styles"
 import { rhythm, scale } from "../utils/typography"
@@ -41,6 +42,10 @@ class BlogPostRoute extends React.Component {
           maxWidth: rhythm(26),
         }}
       >
+        <Helmet>
+          <title>{`Sean McLane | ${post.frontmatter.title}`}</title>
+        </Helmet>
+
         <header>
           <h1
             css={{

@@ -1,4 +1,5 @@
 import React from "react"
+import {Helmet} from "react-helmet"
 import Link from "gatsby-link"
 import styles from "../styles"
 import presets from "../utils/presets"
@@ -12,6 +13,9 @@ class AboutPageRoute extends React.Component {
 
     return (
       <div>
+        <Helmet>
+          <title>Sean McLane | About</title>
+        </Helmet>
         <div>
           <h1
             css={{
