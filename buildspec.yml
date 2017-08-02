@@ -1,10 +1,6 @@
 version: 0.1
 
 phases:
-  install:
-    commands:
-      - echo Installing gatsby
-      - yarn global add gatsby
   pre_build:
     commands:
       - echo Installing node_modules
