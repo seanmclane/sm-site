@@ -3108,6 +3108,10 @@ gatsby-plugin-glamor@latest:
   dependencies:
     glamor "^2.20.29"
 
+gatsby-plugin-google-analytics@latest:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-google-analytics/-/gatsby-plugin-google-analytics-1.0.1.tgz#849b452b6fad7da5c63230b0944e9eb2f3d3959d"
+
 gatsby-plugin-sharp@latest:
   version "1.5.0"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-sharp/-/gatsby-plugin-sharp-1.5.0.tgz#e7112384c37548180feb42e850530c137189dfbf"
@@ -6630,7 +6634,7 @@ react-router-dom@^4.1.1:
     prop-types "^15.5.4"
     react-router "^4.1.1"
 
-"react-router-scroll@github:ytase/react-router-scroll#build":
+react-router-scroll@ytase/react-router-scroll#build:
   version "0.4.1"
   resolved "https://codeload.github.com/ytase/react-router-scroll/tar.gz/991ecddb08885e1fb80ec1e9dbf3a35844b7d4cd"
   dependencies:
