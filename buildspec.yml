@@ -12,8 +12,6 @@ phases:
       - gatsby build
   post_build:
     commands:
+      - echo "******** Uploading to S3 ********"
+      - aws s3 sync public/ s3://dev.seanmclane.com
       - echo Build completed on `date`
-artifacts:
-  files:
-    - '**/*'
-  base-directory: public
