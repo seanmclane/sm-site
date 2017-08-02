@@ -3,6 +3,8 @@ version: 0.2
 phases:
   pre_build:
     commands:
+      - echo Setting env variable
+      - export NODE_ENV=${NODE_ENV}
       - echo Installing yarn
       - curl -sS http://dl.yarnpkg.com/debian/pubkey.gpg | apt-key add -
       - echo "deb http://dl.yarnpkg.com/debian/ stable main" | tee /etc/apt/sources.list.d/yarn.list
