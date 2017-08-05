@@ -45,7 +45,7 @@ https.get(`https://www.mountainproject.com/u/smm//108959833?action=ticks&&export
           jsonData[index].Rating = ratings
         } else {
           jsonData[index].Rating = [{
-            'type': 'Alpine',
+            'type': 'Ice/Mixed',
             'grade': jsonData[index].Rating
           }]
         }
