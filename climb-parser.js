@@ -19,7 +19,10 @@ https.get(`https://www.mountainproject.com/u/smm//108959833?action=ticks&&export
       parsedData.splice(0,2)
       parsedData.splice(-2,2)
 
-      const headers = parsedData.shift()
+      let headers = parsedData.shift()
+      headers = headers.map((value) => {
+        return value.replace(/\s/g, `_`)
+      })
       const jsonData = parsedData.map((values) => {
         return headers.reduce((obj, key, index) => {
           obj[key] = values[index]
