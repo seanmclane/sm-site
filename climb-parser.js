@@ -26,6 +26,19 @@ https.get(`https://www.mountainproject.com/u/smm//108959833?action=ticks&&export
           return obj
         }, {})
       })
+
+      //match rating types and grades
+      const regex = /(?:class='rate)(\w+)(?:'>)(\S+)(?:<)/g
+      let matches = []
+
+      //replace ratings in jsonData with parsed ratings
+      Object.keys(jsonData).forEach((index) => {
+        while (matches = regex.exec(jsonData[index].Rating)) {
+        let rating = {'type': matches[1], 'grade': matches[2]}
+        jsonData[index].Rating = rating
+        }
+      })
+
       const json = JSON.stringify(jsonData)
       fs.writeFile(file, json, (e) => {
         if (e) throw e
