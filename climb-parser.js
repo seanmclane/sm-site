@@ -33,10 +33,12 @@ https.get(`https://www.mountainproject.com/u/smm//108959833?action=ticks&&export
 
       //replace ratings in jsonData with parsed ratings
       Object.keys(jsonData).forEach((index) => {
+        let ratings = []
         while (matches = regex.exec(jsonData[index].Rating)) {
         let rating = {'type': matches[1], 'grade': matches[2]}
-        jsonData[index].Rating = rating
+        ratings.push(rating)
         }
+        jsonData[index].Rating = ratings
       })
 
       const json = JSON.stringify(jsonData)
