@@ -31,7 +31,7 @@ https.get(`https://www.mountainproject.com/u/smm//108959833?action=ticks&&export
       })
 
       //match rating types and grades
-      const regex = /(?:class='rate)(\w+)(?:'>)(\S+)(?:<)/g
+      const regex = /(?:class='rate)(\w+)(?:'>)(.+?)(?:<)/g
       let matches = []
 
       //replace ratings in jsonData with parsed ratings
