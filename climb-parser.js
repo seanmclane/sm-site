@@ -41,7 +41,14 @@ https.get(`https://www.mountainproject.com/u/smm//108959833?action=ticks&&export
         let rating = {'type': matches[1], 'grade': matches[2]}
         ratings.push(rating)
         }
-        jsonData[index].Rating = ratings
+        if (ratings.length > 0) {
+          jsonData[index].Rating = ratings
+        } else {
+          jsonData[index].Rating = {
+            'type': 'Alpine',
+            'grade': jsonData[index].Rating
+          }
+        }
       })
 
       const json = JSON.stringify(jsonData)
