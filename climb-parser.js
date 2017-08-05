@@ -44,10 +44,10 @@ https.get(`https://www.mountainproject.com/u/smm//108959833?action=ticks&&export
         if (ratings.length > 0) {
           jsonData[index].Rating = ratings
         } else {
-          jsonData[index].Rating = {
+          jsonData[index].Rating = [{
             'type': 'Alpine',
             'grade': jsonData[index].Rating
-          }
+          }]
         }
       })
 
