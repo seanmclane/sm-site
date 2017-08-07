@@ -2,7 +2,7 @@ const path = require(`path`)
 const fs = require(`fs`)
 const https = require(`https`)
 
-const file = path.resolve(`src/data/climbs.json`)
+const file = path.resolve(`../src/data/climbs.json`)
 
 https.get(`https://www.mountainproject.com/u/smm//108959833?action=ticks&&export=1`, (res) => {
   res.setEncoding('utf8')
