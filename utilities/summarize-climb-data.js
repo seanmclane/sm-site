@@ -1,16 +1,25 @@
 const climbs = require(`../src/data/climbs.json`)
 
 const climbCountByGrade = climbs.reduce((out, c) => {
-  c.Rating.map((ratings) => {
-    out.sum[ratings.type] = out.sum[ratings.type] || {}
-    out.sum[ratings.type][ratings.grade] = (out.sum[ratings.type][ratings.grade] || 0) + 1
+  c.Rating.map((rating) => {
+   Object.keys(rating).forEach((key) => {
+    out[key] = out[key] || {}
+    out[key][rating[key]] = (out[key][rating[key]] || 0) + 1
+   })
   })
   return out
 },
-{'sum': {}})
-
-//map ewbanks to yds? to order climbs... or just make an ordering table
+{})
 
 console.log(climbCountByGrade)
 
+const ydsOrder = climbs.reduce((out, c) => {
+  //I know this is fragile
+  if (c.Rating.length > 2) {
+    out[(c.Rating[2].Ewbanks)] = c.Rating[0].YDS
+  }
+  return out
+},
+{})
 
+console.log(ydsOrder)
