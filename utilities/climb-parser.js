@@ -38,15 +38,14 @@ https.get(`https://www.mountainproject.com/u/smm//108959833?action=ticks&&export
       Object.keys(jsonData).forEach((index) => {
         let ratings = []
         while (matches = regex.exec(jsonData[index].Rating)) {
-        let rating = {'type': matches[1], 'grade': matches[2]}
+        let rating = {[matches[1]]: matches[2]}
         ratings.push(rating)
         }
         if (ratings.length > 0) {
           jsonData[index].Rating = ratings
         } else {
           jsonData[index].Rating = [{
-            'type': 'Ice/Mixed',
-            'grade': jsonData[index].Rating
+            'Ice/Mixed': jsonData[index].Rating
           }]
         }
       })
