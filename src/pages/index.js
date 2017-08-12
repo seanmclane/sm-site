@@ -39,7 +39,16 @@ class Index extends React.Component {
             >
              mission 
             </Link>
-            {` `}to move fast, climb hard, and put up high-alpine first ascents 
+            {` `}to move fast, climb hard, and put up high-alpine first 
+            {` `}
+            <Link
+              to="/climbs"
+              css={{
+
+              }}
+            >
+             ascents 
+            </Link> 
           </h1>
           <ul
             css={{

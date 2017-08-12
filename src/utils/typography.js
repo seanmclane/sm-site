@@ -42,6 +42,10 @@ const options = {
   ],
   overrideStyles: ({ rhythm, scale }, options) => {
     return {
+      "html ::selection": {
+        background: `${colors.link}`,
+        color: `#fff`,
+      },
       a: {
         borderColor: `${colors.link}`,
         color: `${colors.link}`,
