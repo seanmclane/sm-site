@@ -1,6 +1,6 @@
 ---
 title: "Eclipse on the Grand Teton"
-date: "2017-08-21"
+date: "2017-08-26"
 draft: false
 author: Sean McLane
 tags:
