@@ -22,7 +22,7 @@ I rolled into Grand Teton National Park late Thursday night, hoping for an early
 
 Profligate with my glycogen on the way up, fat powered my repentant, walk-jog-walk descent. An approaching group pulled me out of my head. They were guiding a man with Down Syndrome through the boulder field below the Meadows.
 
-For my non-climbing friends, some context: there is no route to the top of the Grand Teton that is not normally climbed with a rope. I measured a vertical gain of 9,000 feet and round-trip distance of 16.1 miles that day.
+For my non-climbing friends, some context: there is no route to the top of the Grand Teton that is not normally climbed with a rope. I measured a vertical gain of 9,000 feet and round-trip distance of 16.1 miles that day. The summit sits at 13,776'.
 
 **This was a surprising sight.**
 
@@ -31,9 +31,9 @@ A few days later I learned that Ducky became the first person with Down Syndrome
 ![](ducky.jpg)
 *[Instagram](https://www.instagram.com/p/BYPCFuLH0Qk/?taken-by=patagonia_climb)*
 
-I thought as I ran past, "These are some really quality people. Keep it up!". The overwhelming response on social media shows I'm not alone in that opinion.
+I thought as I ran past, "These are some really quality people. Keep it up!". The overwhelming response on social media shows I was not the only one so inspired.
 
-As I continued down the mountain that day, six parties asked me if I had summited and how fast (I started counting after three did). They were all stoked for me and offered plenty of encouragement. I didn't set a PR, but I couldn't be disappointed with my time after such an incredibly positive day.
+As I continued down the mountain that day, six parties asked me if I had summited and how fast (I started counting after three did). They were all stoked for me and offered plenty of encouragement. I didn't set a PR, but I couldn't be disappointed with my time after such an incredibly positive, uplifting day.
 
 ##Saturday
 
