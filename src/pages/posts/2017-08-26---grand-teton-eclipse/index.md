@@ -61,4 +61,4 @@ A few minutes before totality, as the dimmer switch came down, a group of strang
 
 Two minutes later it was all over.
 
-I felt small. Events on the scale of the solar system can cause that; so can the reminder that you have the balls to free solo but not to talk to people. On this trip, I chose to seek solitude when small acts of community made me feel so much better. Stress causes us all to regress to places of known comfort instead of seeking challenge and growth. I came away from this break a little less stressed and a little more motivated to engage the quality people in my life, and the ones I haven't met yet. I hope you will be too.
+I felt small. Events on the scale of the solar system can cause that; so can the reminder that you have the balls to free solo but not to talk to people. On this trip, I chose to seek solitude when small acts of community made me feel so much better. Stress causes us all to regress to places of known comfort instead of seeking challenge and growth. I came away from this break a little less stressed and a little more motivated to engage the quality people in my life, and the ones I haven't met yet.
