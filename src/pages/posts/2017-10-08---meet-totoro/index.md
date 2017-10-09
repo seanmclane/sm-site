@@ -11,7 +11,7 @@ tags:
 ---
 ##The Search
 
-I spent months researching camping vehicles. From Tacomas to Sprinters, Westfalias to Transits, I knew all the options, but each one had its downsides - you have to get out of a truck to get in the cab, you have to pay $50,000 for a 4x4 Sprinter, you would pay not much less for a Syncro, etc. In the end, I wanted something I could customize without breaking the bank, that had four wheel drive, and was smaller than a modern van.
+I spent months researching camping vehicles. From Tacomas to Sprinters, Westfalias to Transits, I knew all the options, but each one had its downsides - you have to get out of a truck to get in the bed, you have to pay $50,000 for a 4x4 Sprinter, you would pay not much less for a Syncro, etc. In the end, I wanted something I could customize without breaking the bank, that had four wheel drive, and was smaller than a modern van.
 
 If you've ever been to Vancouver, you've probably seen a [Delica](https://en.wikipedia.org/wiki/Mitsubishi_Delica). They look like lego bricks on wheels, chugging along in the slow lane. A few importers have made a living bringing Japanese-made cars to Canada. Only the ones that are at least 25 years old can be imported into the U.S.
 
