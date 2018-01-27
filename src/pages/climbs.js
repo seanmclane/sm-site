@@ -49,11 +49,12 @@ class ClimbsPageRoute extends React.Component {
 
     Object.keys(rawClimbSummary[0]).forEach((grade) => {
       let g = [rawClimbSummary[0][grade]]
-      //for six years 2012-2017
-      for (let i = 0; i < 6; i++) {
+      //for all years in data 2012-2018
+      for (let i = 0; i < 7; i++) {
         g[0][i]['label'] = `${grade} (${g[0][i]['count']})`
       } 
       dataset.push(g)
+      
     })
 
 
@@ -132,8 +133,8 @@ class ClimbsPageRoute extends React.Component {
                   tickFormat={(count) => count}
                 />
                 <VictoryAxis
-                  tickFormat={['2012', '2013','2014','2015','2016','2017']}
-                  tickValues={[1,2,3,4,5,6]}
+                  tickFormat={['2012', '2013','2014','2015','2016','2017','2018']}
+                  tickValues={[1,2,3,4,5,6,7]}
                 />
             </VictoryChart>
             <h3
