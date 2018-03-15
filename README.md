@@ -4,7 +4,7 @@ My personal site focused on stories of alpine climbing and personal growth.
 
 ## Gatsby.js
 
-I use [Gatsby.js](https://github.com/gatsbyjs/gatsby) to build a static site that has all the benefits of React.
+I use [Gatsby.js](https://github.com/gatsbyjs/gatsby) to build a static site that has all the benefits of React...
 
 ## Structure
 
