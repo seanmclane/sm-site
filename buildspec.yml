@@ -1,4 +1,4 @@
-version: 0.2
+version: 0.3
 
 phases:
   pre_build:
@@ -16,6 +16,8 @@ phases:
     commands:
       - echo Building seanmclane.com
       - gatsby build
+      - echo Compressing files
+      - gzip -r public/
   post_build:
     commands:
       - echo "******** Uploading to S3 ********"

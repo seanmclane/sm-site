@@ -1,5 +1,5 @@
 import React from "react"
-import {Helmet} from "react-helmet"
+import { Helmet } from "react-helmet"
 import Link from "gatsby-link"
 import styles from "../styles"
 import presets from "../utils/presets"
@@ -59,7 +59,7 @@ class AboutPageRoute extends React.Component {
               <a href="https://www.mountainproject.com/u/smm//108959833"><img width="32" height="32" src={m} /></a>
             </li>
             <li>
-              <a href="https://github.com/seanmclane"><img width="32" height="32" src={g} /></a>
+              <a href="https://github.com/seanmclane/sm-site"><img width="32" height="32" src={g} /></a>
             </li>
 
           </ul>
@@ -73,6 +73,7 @@ class AboutPageRoute extends React.Component {
           <p>          
             In the four years since, I've been back to altitude without issue in Peru, lead WI5 in Canada, onsighted 5.11 in the Creek, and soloed the Grand Teton in under six hours. I feel proud of those accomplishments as stepping stones to the aesthetic lines that fill my dreams.
           </p>
+
         </div>
       </div>
     )
