@@ -18,7 +18,7 @@ phases:
       - gatsby build
       - echo Compressing files
       - gzip -r public/
-      - cd public/ && find . -name '*.gz' -type f | while read NAME ; do mv "${NAME}" "${NAME%.gz}" ; done
+      - find public/. -name '*.gz' -type f | while read NAME ; do mv "${NAME}" "${NAME%.gz}" ; done
   post_build:
     commands:
       - echo "******** Uploading to S3 ********"
