@@ -16,7 +16,10 @@ phases:
     commands:
       - echo Building seanmclane.com
       - gatsby build
+      - echo Compressing files
+      - gzip -r public/
+      - find public/. -name '*.gz' -type f | while read NAME ; do mv "${NAME}" "${NAME%.gz}" ; done
   post_build:
     commands:
       - echo "******** Uploading to S3 ********"
-      - aws s3 sync --delete public/ s3://${BUCKET_NAME}
+      - aws s3 sync --delete public/ s3://${BUCKET_NAME} --content-encoding 'gzip'
