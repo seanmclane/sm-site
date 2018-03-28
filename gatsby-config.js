@@ -1,5 +1,6 @@
 module.exports = {
   siteMetadata: {
+    siteUrl: `https://seanmclane.com`,
     title: `Sean McLane`,
     author: `Sean McLane`,
     description: `The personal website of Sean McLane, alpinist`,
@@ -50,5 +51,6 @@ module.exports = {
     `gatsby-plugin-catch-links`,
     `gatsby-plugin-glamor`,
     `gatsby-plugin-react-helmet`,
+
   ],
 }
