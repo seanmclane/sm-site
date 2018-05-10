@@ -22,11 +22,16 @@ const allGrades = ['Easy 5th', '5.4', '5.5', '5.6', '5.7', '5.8', '5.9', '5.10',
 
 const climbCountByYear = climbs.reduce((out, c) => {
   let year = c.Date.substr(0,4)
-  let month = c.Date.substr(5,2)
+  // let month = c.Date.substr(5,2)
   out[year] = out[year] || {}
   //out[year][month] = out[year][month]
 
-  let grade = c.Rating
+  let g = c.Rating.match(/\d\.\d+\S?/g)
+  //TODO also match 5easy climbs
+  let grade = ''
+  if (g != null) {
+    grade = g[0]
+  }
 
   function groupGrades(group, grade, name) {
     if (_.includes(group, grade)) {
@@ -39,7 +44,7 @@ const climbCountByYear = climbs.reduce((out, c) => {
   climbGroups.forEach((group, i) => {
     groupGrades(group, grade, allGrades[i])
   })
-  
+
   return out
 },
 {})
