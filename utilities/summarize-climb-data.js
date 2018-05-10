@@ -26,7 +26,7 @@ const climbCountByYear = climbs.reduce((out, c) => {
   out[year] = out[year] || {}
   //out[year][month] = out[year][month]
 
-  let grade = c.Rating[0].YDS
+  let grade = c.Rating
 
   function groupGrades(group, grade, name) {
     if (_.includes(group, grade)) {

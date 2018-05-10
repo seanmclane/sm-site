@@ -45,6 +45,7 @@ class ClimbsPageRoute extends React.Component {
     let totalPitches = 0
     rawClimbs.forEach((c) => {
       totalPitches += parseInt(c.Pitches)
+      console.log(c.Pitches)
     })
 
     Object.keys(rawClimbSummary[0]).forEach((grade) => {
