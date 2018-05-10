@@ -13,7 +13,7 @@ tags:
 
 As is the case not just in training, a lot of repetitive work can wear on you. In training, either the goal is so immediately present that any workout is rewarding (difficult to maintain) or you need to spice things up. Being able to get outside backcountry skiing is a life-saver for me when the prescription is five hours of moving uphill at a nose-breathing pace, carrying enough water to sate a football team's thirst. Even better when your friend wants to sneak in a quick pitch of ice in the middle, right...?
 
-If you sense foreshadowing, give yourself a pat on the back. Instead of a jaunt up some rarely climbed ice in Mineral Fork, we spent three hours post-holing in bottomless powder between the first step of ice and the "real" pitch above. Luckily, my heart rate settled in at the right level while breaking trail most of the way. Good Alaksa practice.
+If you sense foreshadowing, give yourself a pat on the back. Instead of a jaunt up some rarely climbed ice in Mineral Fork, we spent three hours post-holing in bottomless powder between the first step of ice and the "real" pitch above. Luckily, my heart rate settled in at the right level while breaking trail most of the way. Good Alaska practice.
 
 ![](post-holing.jpg)
 
