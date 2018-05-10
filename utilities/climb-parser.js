@@ -4,20 +4,24 @@ const https = require(`https`)
 
 const file = path.resolve(`../src/data/climbs.json`)
 
-https.get(`https://www.mountainproject.com/u/smm//108959833?action=ticks&&export=1`, (res) => {
+https.get(`https://www.mountainproject.com/user/108959833/smm/tick-export`, (res) => {
   res.setEncoding('utf8')
   let rawData = ''
   res.on('data', (chunk) => { rawData += chunk })
   res.on('end', () => {
     try {
-      const lines = rawData.split(/\r?\n/)
-      const parsedData = lines.map((l) => {
-        return l.split('|')
+      let lines = rawData.split(/\r?\n/)
+      lines = lines.map((value) => {
+        value = value.replace(/\,\s/g, ` `)
+        return value.replace(/\"/g, ``)
       })
-
+      const parsedData = lines.map((l) => {
+        return l.split(',')
+      })
+      
       // remove extra rows from top and bottom
-      parsedData.splice(0,2)
-      parsedData.splice(-2,2)
+      // parsedData.splice(0,2)
+      parsedData.splice(-1,1)
 
       let headers = parsedData.shift()
       headers = headers.map((value) => {
@@ -31,11 +35,11 @@ https.get(`https://www.mountainproject.com/u/smm//108959833?action=ticks&&export
       })
 
       //match rating types and grades
-      const regex = /(?:class='rate)(\w+)(?:'>)(.+?)(?:<)/g
-      let matches = []
+      //const regex = /(?:class='rate)(\w+)(?:'>)(.+?)(?:<)/g
+      //let matches = []
 
       //replace ratings in jsonData with parsed ratings
-      Object.keys(jsonData).forEach((index) => {
+      /*Object.keys(jsonData).forEach((index) => {
         let ratings = []
         while (matches = regex.exec(jsonData[index].Rating)) {
         let rating = {[matches[1]]: matches[2]}
@@ -48,7 +52,7 @@ https.get(`https://www.mountainproject.com/u/smm//108959833?action=ticks&&export
             'Ice/Mixed': jsonData[index].Rating
           }]
         }
-      })
+      })*/
 
       const json = JSON.stringify(jsonData)
       fs.writeFile(file, json, (e) => {
