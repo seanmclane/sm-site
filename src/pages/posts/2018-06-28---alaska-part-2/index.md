@@ -8,6 +8,8 @@ tags:
   - expedition
 ---
 
+[Part 1 - Ryan and Begguya](/alaska-part-1/)
+
 ##Sleds
 
 I must start this chapter of my Alaska adventures with a reflection on pulling sleds. I was so changed by the experience that I wrote this poem. I hope it gives you insight into the joys of getting from basecamp to 14k camp on Denali.
