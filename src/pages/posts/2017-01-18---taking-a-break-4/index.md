@@ -7,6 +7,7 @@ tags:
   - nepal
   - ama dablam 2016
   - taking a break series
+  - expedition
 ---
 [Part 1 - Dramatis Personae](/taking-a-break-1/)
 

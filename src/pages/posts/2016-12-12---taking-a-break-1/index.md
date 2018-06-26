@@ -7,6 +7,7 @@ tags:
   - nepal
   - ama dablam 2016
   - taking a break series
+  - expedition
 ---
 Before I tell you of my expedition to Nepal, let me introduce the cast of characters for this tale of ambition, hubris, persistence, introspection, and growth:
 
