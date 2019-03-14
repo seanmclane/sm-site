@@ -1,9 +1,11 @@
 import React from "react"
-import {Helmet} from "react-helmet"
+import { Helmet } from "react-helmet"
 import Link from "gatsby-link"
+import { graphql } from 'gatsby'
+import Layout from '../pages/components/layout'
 
 class TagRoute extends React.Component {
-  render() {
+  render () {
     const posts = this.props.data.allMarkdownRemark.edges
     const postLinks = posts.map(post =>
       <li key={post.node.fields.slug}>
@@ -14,21 +16,23 @@ class TagRoute extends React.Component {
     )
 
     return (
-      <div>
-        <Helmet>
-          <title>{`Sean McLane | Posts tagged with “${this.props.pathContext.tag}”`}</title>
-        </Helmet>
-        <h1>
-          {this.props.data.allMarkdownRemark.totalCount}
-          {` `}posts tagged with “{this.props.pathContext.tag}”
+      <Layout>
+        <div>
+          <Helmet>
+            <title>{`Sean McLane | Posts tagged with “${this.props.pathContext.tag}”`}</title>
+          </Helmet>
+          <h1>
+            {this.props.data.allMarkdownRemark.totalCount}
+            {` `}posts tagged with “{this.props.pathContext.tag}”
         </h1>
-        <ul>
-          {postLinks}
-        </ul>
-        <p>
-          <Link to="/tags/">Browse all tags</Link>
-        </p>
-      </div>
+          <ul>
+            {postLinks}
+          </ul>
+          <p>
+            <Link to="/tags/">Browse all tags</Link>
+          </p>
+        </div>
+      </Layout>
     )
   }
 }

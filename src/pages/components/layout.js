@@ -1,21 +1,21 @@
 import React from "react"
-import {Helmet} from "react-helmet"
+import { Helmet } from "react-helmet"
 import Link from "gatsby-link"
-import { rhythm, scale } from "../utils/typography"
-import styles from "../styles"
-import presets from "../utils/presets"
+import { rhythm, scale } from "../../utils/typography"
+import styles from "../../styles"
+import presets from "../../utils/presets"
 
 import "typeface-space-mono"
 import "typeface-spectral"
 
-import f16 from "../favicon-16x16.png"
-import f32 from "../favicon-32x32.png"
-import f96 from "../favicon-96x96.png"
+import f16 from "../../favicon-16x16.png"
+import f32 from "../../favicon-32x32.png"
+import f96 from "../../favicon-96x96.png"
 
 import shan from "./shan-icon.png"
 
 class DefaultLayout extends React.Component {
-  render() {
+  render () {
     return (
       <div>
         <Helmet>
@@ -52,9 +52,9 @@ class DefaultLayout extends React.Component {
             href={`/static/space-mono-latin-700.eadcd2d5.woff2`}
           />
           <title>Sean McLane</title>
-          <link rel="icon" type="image/png" sizes="32x32" href={f32}/>
-          <link rel="icon" type="image/png" sizes="96x96" href={f96}/>
-          <link rel="icon" type="image/png" sizes="16x16" href={f16}/>
+          <link rel="icon" type="image/png" sizes="32x32" href={f32} />
+          <link rel="icon" type="image/png" sizes="96x96" href={f96} />
+          <link rel="icon" type="image/png" sizes="16x16" href={f16} />
         </Helmet>
         <div {...styles.container} {...styles.verticalPadding}>
           <Link
@@ -64,7 +64,7 @@ class DefaultLayout extends React.Component {
               textDecoration: `none`,
             }}
           >
-            <img 
+            <img
               src={shan}
               height="50"
               width="50"
@@ -72,11 +72,11 @@ class DefaultLayout extends React.Component {
                 display: `inline-block`,
                 margin: `0px`,
               }}
-              />
+            />
           </Link>
         </div>
         <div {...styles.container} {...styles.verticalPadding}>
-          {this.props.children()}
+          {this.props.children}
         </div>
       </div>
     )

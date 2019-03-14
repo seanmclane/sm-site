@@ -1,7 +1,9 @@
 import { style } from "glamor"
-import { rhythm } from "../utils/typography"
-import { colors } from "./colors"
+import typography from "../utils/typography"
+import { colors, baseHsl } from "./colors"
 import presets from "../utils/presets"
+
+const rhythm = typography.rhythm
 
 const animations = {
   animationCurveFastOutSlowIn: `cubic-bezier(0.4, 0, 0.2, 1)`,
@@ -16,6 +18,7 @@ const animations = {
 export default {
   animations: animations,
   colors: colors,
+  baseHsl: baseHsl,
   verticalPadding: style({
     padding: rhythm(3 / 4),
   }),

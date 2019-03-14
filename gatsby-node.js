@@ -98,14 +98,14 @@ exports.onCreateNode = ({ node, boundActionCreators, getNode }) => {
   }
 }
 
-// Sass and Lodash.
-exports.modifyWebpackConfig = ({ config, stage }) => {
+// Lodash
+exports.onCreateWebpackConfig = ({ config, stage }) => {
 
   switch (stage) {
     case `build-javascript`:
-      config.plugin(`Lodash`, webpackLodashPlugin, null)
-
-      break
+      actions.setWebpackConfig({
+        plugins: [webpackLodashPlugin]
+      })
   }
 
   return config
