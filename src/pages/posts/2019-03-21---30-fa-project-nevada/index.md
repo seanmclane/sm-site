@@ -7,10 +7,15 @@ tags:
   - 30 fa project
   - nevada
   - first ascent
+  - challenge
+  - ice climbing
 ---
 
 ##Zion Exploration
 
+
+##Secrets
+Why do we keep climbs and climbing areas secret?
 
 ##Nevada Ice
 ![](white-lines.JPG)

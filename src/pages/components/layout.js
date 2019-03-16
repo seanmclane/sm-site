@@ -1,9 +1,7 @@
 import React from "react"
 import { Helmet } from "react-helmet"
 import Link from "gatsby-link"
-import { rhythm, scale } from "../../utils/typography"
 import styles from "../../styles"
-import presets from "../../utils/presets"
 
 import "typeface-space-mono"
 import "typeface-spectral"
@@ -68,6 +66,7 @@ class DefaultLayout extends React.Component {
               src={shan}
               height="50"
               width="50"
+              alt="shan logo"
               css={{
                 display: `inline-block`,
                 margin: `0px`,

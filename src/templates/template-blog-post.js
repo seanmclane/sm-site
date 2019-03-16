@@ -3,7 +3,6 @@ import { Helmet } from "react-helmet"
 import Link from "gatsby-link"
 import styles from "../styles"
 import { rhythm, scale } from "../utils/typography"
-import presets from "../utils/presets"
 import { graphql } from 'gatsby'
 import Layout from '../pages/components/layout'
 

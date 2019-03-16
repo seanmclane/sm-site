@@ -1,8 +1,5 @@
 import React from "react"
 import { Helmet } from "react-helmet"
-import Link from "gatsby-link"
-import styles from "../styles"
-import presets from "../utils/presets"
 import { rhythm, scale } from "../utils/typography"
 import { graphql } from 'gatsby'
 import Layout from '../pages/components/layout'
@@ -39,7 +36,7 @@ class AboutPageRoute extends React.Component {
           </h1>
             <img
               src={aboutImage}
-
+              alt="about"
               css={{
                 marginBottom: rhythm(2),
               }}
@@ -56,13 +53,13 @@ class AboutPageRoute extends React.Component {
               }}
             >
               <li>
-                <a href="https://www.instagram.com/seanmshan/"><img width="32" height="32" src={i} /></a>
+                <a href="https://www.instagram.com/seanmshan/"><img width="32" height="32" src={i} alt="instagram" /></a>
               </li>
               <li>
-                <a href="https://www.mountainproject.com/u/smm//108959833"><img width="32" height="32" src={m} /></a>
+                <a href="https://www.mountainproject.com/u/smm//108959833"><img width="32" height="32" src={m} alt="mountain project" /></a>
               </li>
               <li>
-                <a href="https://github.com/seanmclane/sm-site"><img width="32" height="32" src={g} /></a>
+                <a href="https://github.com/seanmclane/sm-site"><img width="32" height="32" src={g} alt="github" /></a>
               </li>
 
             </ul>
@@ -74,7 +71,7 @@ class AboutPageRoute extends React.Component {
               I have to do this again.
           </blockquote>
             <p>
-              In the six years since, I've been back to altitude without issue in Peru, lead WI5 in Canada, onsighted 5.11 in the Creek, and soloed the Grand Teton in under six hours. I feel proud of those accomplishments as stepping stones to the aesthetic lines that fill my dreams.
+              In the seven years since, I've been back to altitude without issue in Peru, lead WI5 in Canada, onsighted 5.11 in the Creek, and soloed the Grand Teton in under six hours. I feel proud of those accomplishments as stepping stones to the aesthetic lines that fill my dreams.
           </p>
 
           </div>

@@ -12,7 +12,6 @@ import shan from "./components/shan-icon.png"
 class Index extends React.Component {
   render () {
     const posts = this.props.data.allMarkdownRemark.edges
-    const author = this.props.data.site.siteMetadata.author
     const title = this.props.data.site.siteMetadata.title
     const description = this.props.data.site.siteMetadata.description
 

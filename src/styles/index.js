@@ -1,7 +1,6 @@
 import { style } from "glamor"
 import typography from "../utils/typography"
 import { colors, baseHsl } from "./colors"
-import presets from "../utils/presets"
 
 const rhythm = typography.rhythm
 

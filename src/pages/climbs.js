@@ -1,10 +1,8 @@
 import React from "react"
 import { Helmet } from "react-helmet"
-import Link from "gatsby-link"
 import styles from "../styles"
-import presets from "../utils/presets"
 import { rhythm, scale } from "../utils/typography"
-import { VictoryChart, VictoryAxis, VictoryBar, VictoryStack, VictoryLegend, VictoryTooltip, VictoryLabel, VictoryPortal } from "victory"
+import { VictoryChart, VictoryAxis, VictoryBar, VictoryStack, VictoryTooltip } from "victory"
 import theme from "../styles/chart"
 import Layout from '../pages/components/layout'
 
@@ -47,12 +45,12 @@ class ClimbsPageRoute extends React.Component {
   }
   render () {
     const rawClimbSummary = require("../data/climb-summary.json")
-    const rawClimbs = require("../data/climbs.json")
+    // const rawClimbs = require("../data/climbs.json")
     let dataset = []
-    let totalPitches = 0
-    rawClimbs.forEach((c) => {
-      totalPitches += parseInt(c.Pitches)
-    })
+    // let totalPitches = 0
+    // rawClimbs.forEach((c) => {
+    //   totalPitches += parseInt(c.Pitches)
+    // })
 
     Object.keys(rawClimbSummary[this.state.type]).forEach((grade) => {
       let g = [rawClimbSummary[this.state.type][grade]]

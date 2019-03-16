@@ -1,9 +1,7 @@
 import React from "react"
 import { Helmet } from "react-helmet"
 import Link from "gatsby-link"
-import styles from "../styles"
-import presets from "../utils/presets"
-import { rhythm, scale } from "../utils/typography"
+import { scale } from "../utils/typography"
 import { graphql } from 'gatsby'
 import Layout from '../pages/components/layout'
 
@@ -11,7 +9,6 @@ import shan from "./components/shan-icon.png"
 
 class NotFound extends React.Component {
   render () {
-    const author = this.props.data.site.siteMetadata.author
     const title = this.props.data.site.siteMetadata.title
     const description = this.props.data.site.siteMetadata.description
     const pathname = this.props.location.pathname
