@@ -1,6 +1,6 @@
 ---
 title: "30 FA Project - Origins"
-date: "2019-03-14"
+date: "2019-03-18"
 draft: false
 author: Sean McLane
 tags:
@@ -29,12 +29,23 @@ This challenge is as much about identifying and maximizing those qualities in cl
 - Lots of ice, since I love ice climbing
 
 ##New Mexico Ice
-The first place I thought to search for unclimbed ice was New Mexico. It borders Colorado, there's very little documented ice, and people generally think it's too warm. Plus I had a good friend in Los Alamos with a home base for exploration.
+The first place I thought to search for unclimbed ice was New Mexico. It borders Colorado, there's very little documented ice, and people generally think it's too warm. Plus I had a good friend (Forest) in Los Alamos with a home base for exploration.
 
+I started research with a waterfall guide to New Mexico, since I knew of someone successfully using it to find new ice. Marking promising areas and features on Google Maps, I plotted a few loops from Los Alamos for scouting. After deciding the weather had been cold and snowy enough, ten hours' drive from Salt Lake put me in the atom town.
 
+![](wallowing.JPG)
+*Forest digging for FAs*
+
+The first days didn't pan out; warmer temperatures or unplowed roads kept me from climbing. Forest and I went out one day and found plenty of deep snow. But I got luckier with a desert box canyon called the "Embudo Box". Photos showed a short waterfall with an easy approach and another farther in. On the drive in, I noted how much snow there was and how the temperature dropped. My first target, Ojo Sarco Falls, was frozen solid. 15 feet tall but climbable.
 
 ![](ojo-sarco.JPG)
 *[Ojo Sarco WI3](https://www.mountainproject.com/route/116361497/ojo-sarco)*
 
+The second falls, Cañada del Agua, had almost no ice. I still have no idea why. There can be good signs for ice formation but enough variables that it is very fickle.
+
+But farther up the Embudo Box canyon, at a point with no flowing water, I caught a glimpse of more ice! A large snowy slope melted enough in the afternoon sun to grow a thin smear. After a few moves on the inch-thick ice, I gained more solid terrain, stacking tool sticks vertically on the body-width section. This felt much more like real ice climbing.
+
 ![](ojo-sagrado.JPG)
 *[Ojo Sagrado WI3+](https://www.mountainproject.com/route/116361515/ojo-sagrado)*
+
+With two FAs and another area with great potential scouted by the second week of January, I was ahead of schedule. But it would be over a month before I would add to my total.
