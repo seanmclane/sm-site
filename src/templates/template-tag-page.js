@@ -19,11 +19,11 @@ class TagRoute extends React.Component {
       <Layout>
         <div>
           <Helmet>
-            <title>{`Sean McLane | Posts tagged with “${this.props.pathContext.tag}”`}</title>
+            <title>{`Sean McLane | Posts tagged with “${this.props.pageContext.tag}”`}</title>
           </Helmet>
           <h1>
             {this.props.data.allMarkdownRemark.totalCount}
-            {` `}posts tagged with “{this.props.pathContext.tag}”
+            {` `}posts tagged with “{this.props.pageContext.tag}”
         </h1>
           <ul>
             {postLinks}

@@ -1,6 +1,6 @@
 ---
 title: "30 FA Project - Origins"
-date: "2019-03-18"
+date: "2019-03-26"
 draft: false
 author: Sean McLane
 tags:
@@ -29,7 +29,7 @@ This challenge is as much about identifying and maximizing those qualities in cl
 - Lots of ice, since I love ice climbing
 
 ##New Mexico Ice
-The first place I thought to search for unclimbed ice was New Mexico. It borders Colorado, there's very little documented ice, and people generally think it's too warm. Plus I had a good friend (Forest) in Los Alamos with a home base for exploration.
+The first place I thought to search for unclimbed ice was New Mexico. It borders Colorado, there's very little documented ice, and people generally think it's too warm. Plus I had a good friend, Forest, in Los Alamos with a home base for exploration.
 
 I started research with a waterfall guide to New Mexico, since I knew of someone successfully using it to find new ice. Marking promising areas and features on Google Maps, I plotted a few loops from Los Alamos for scouting. After deciding the weather had been cold and snowy enough, ten hours' drive from Salt Lake put me in the atom town.
 
