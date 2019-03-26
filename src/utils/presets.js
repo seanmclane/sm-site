@@ -1,4 +1,4 @@
-module.exports = {
+export default {
   mobile: `(min-width: 400px)`,
   Mobile: `@media (min-width: 400px)`,
   phablet: `(min-width: 550px)`,

@@ -10,7 +10,7 @@ if (process.env.NODE_ENV === `production`) {
 }
 
 class HTML extends React.Component {
-  render() {
+  render () {
     let css
     if (process.env.NODE_ENV === `production`) {
       css = (
@@ -22,7 +22,6 @@ class HTML extends React.Component {
     }
 
     return (
-      <!DOCTYPE html>
       <html lang="en">
         <head>
           {this.props.headComponents}

@@ -12,4 +12,4 @@ const colors = {
   linkHover: `#5bcece`,
 }
 
-export default { colors, baseHsl }
+export { colors, baseHsl }
