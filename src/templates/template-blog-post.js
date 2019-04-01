@@ -9,6 +9,7 @@ import Layout from '../pages/components/layout'
 class BlogPostRoute extends React.Component {
   render () {
     const post = this.props.data.markdownRemark
+    const author = this.props.data.authorYaml
 
     let tags
     let tagsSection
@@ -91,13 +92,13 @@ class BlogPostRoute extends React.Component {
               }}
             >
               <img
-                alt={`Avatar of ${post.frontmatter.author.id}`}
+                alt={`Avatar of ${author.id}`}
                 src={
-                  post.frontmatter.author.avatar.children[0].fixed
+                  author.avatar.children[0].fixed
                     .src
                 }
                 srcSet={
-                  post.frontmatter.author.avatar.children[0].fixed
+                  author.avatar.children[0].fixed
                     .srcSet
                 }
                 css={{
@@ -122,11 +123,11 @@ class BlogPostRoute extends React.Component {
                     textTransform: `uppercase`,
                   }}
                 >
-                  {post.frontmatter.author.id}
+                  {author.id}
                 </small>
               </Link>
               {` `}
-              {post.frontmatter.author.bio}
+              {author.bio}
             </span>
           </p>
         </div>
@@ -150,22 +151,22 @@ export const pageQuery = graphql`
         title
         tags
         date(formatString: "MMMM DD, YYYY")
-        author {
-          id
-          bio
-          avatar {
-            children {
-              ... on ImageSharp {
-                fixed(
-                  width: 50
-                  height: 50
-                  quality: 75
-                  grayscale: true
-                ) {
-                  src
-                  srcSet
-                }
-              }
+      }
+    }
+    authorYaml {
+      id
+      bio
+      avatar {
+        children {
+          ... on ImageSharp {
+            fixed(
+              width: 50
+              height: 50
+              quality: 75
+              grayscale: true
+            ) {
+              src
+              srcSet
             }
           }
         }

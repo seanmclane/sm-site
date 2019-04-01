@@ -99,7 +99,7 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
 }
 
 // Lodash
-exports.onCreateWebpackConfig = ({ config, stage }) => {
+exports.onCreateWebpackConfig = ({ stage, actions }) => {
 
   switch (stage) {
     case `build-javascript`:
@@ -108,5 +108,4 @@ exports.onCreateWebpackConfig = ({ config, stage }) => {
       })
   }
 
-  return config
 }
