@@ -4,7 +4,7 @@ import { rhythm, scale } from "../utils/typography"
 import { graphql } from 'gatsby'
 import Layout from '../pages/components/layout'
 
-import aboutImage from "./posts/2017-01-18---taking-a-break-4/slab.jpg"
+import aboutImage from "./avatars/sean.jpg"
 
 import i from "./instagram.png"
 import m from "./mountainproject.png"
