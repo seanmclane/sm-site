@@ -5,9 +5,6 @@ module.exports = {
     author: `Sean McLane`,
     description: `The personal website of Sean McLane, alpinist`,
   },
-  mapping: {
-    "MarkdownRemark.frontmatter.author": `AuthorYaml`,
-  },
   plugins: [
     {
       resolve: `gatsby-source-filesystem`,

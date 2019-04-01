@@ -1,33 +1,37 @@
 import React from "react"
-import {Helmet} from "react-helmet"
+import { Helmet } from "react-helmet"
 import Link from "gatsby-link"
 import kebabCase from "lodash/kebabCase"
+import { graphql } from 'gatsby'
+import Layout from '../pages/components/layout'
 
 class TagsPageRoute extends React.Component {
-  render() {
+  render () {
     const allTags = this.props.data.allMarkdownRemark.group
 
     return (
-      <div>
-        <Helmet>
-          <title>Sean McLane | Tags</title>
-        </Helmet>
-        <h1>Tags</h1>
-        <ul>
-          {allTags.map(tag =>
-            <li key={tag.fieldValue}>
-              <Link
-                style={{
-                  textDecoration: `none`,
-                }}
-                to={`/tags/${kebabCase(tag.fieldValue)}/`}
-              >
-                {tag.fieldValue} ({tag.totalCount})
+      <Layout>
+        <div>
+          <Helmet>
+            <title>Sean McLane | Tags</title>
+          </Helmet>
+          <h1>Tags</h1>
+          <ul>
+            {allTags.map(tag =>
+              <li key={tag.fieldValue}>
+                <Link
+                  style={{
+                    textDecoration: `none`,
+                  }}
+                  to={`/tags/${kebabCase(tag.fieldValue)}/`}
+                >
+                  {tag.fieldValue} ({tag.totalCount})
               </Link>
-            </li>
-          )}
-        </ul>
-      </div>
+              </li>
+            )}
+          </ul>
+        </div>
+      </Layout>
     )
   }
 }

@@ -1,13 +1,15 @@
 import React from "react"
-import {Helmet} from "react-helmet"
+import { Helmet } from "react-helmet"
 import Link from "gatsby-link"
 import styles from "../styles"
 import { rhythm, scale } from "../utils/typography"
-import presets from "../utils/presets"
+import { graphql } from 'gatsby'
+import Layout from '../pages/components/layout'
 
 class BlogPostRoute extends React.Component {
-  render() {
+  render () {
     const post = this.props.data.markdownRemark
+    const author = this.props.data.authorYaml
 
     let tags
     let tagsSection
@@ -37,97 +39,99 @@ class BlogPostRoute extends React.Component {
     }
 
     return (
-      <div
-        css={{
-          maxWidth: rhythm(26),
-        }}
-      >
-        <Helmet>
-          <title>{`Sean McLane | ${post.frontmatter.title}`}</title>
-          <meta property="og:title" content={`Sean McLane | ${post.frontmatter.title}`}/>
-          <meta property="og:site_name" content="Sean McLane"/>
-          <meta property="og:description" content={post.excerpt} />
-        </Helmet>
+      <Layout>
+        <div
+          css={{
+            maxWidth: rhythm(26),
+          }}
+        >
+          <Helmet>
+            <title>{`Sean McLane | ${post.frontmatter.title}`}</title>
+            <meta property="og:title" content={`Sean McLane | ${post.frontmatter.title}`} />
+            <meta property="og:site_name" content="Sean McLane" />
+            <meta property="og:description" content={post.excerpt} />
+          </Helmet>
 
-        <header>
-          <h1
-            css={{
-              marginBottom: rhythm(1 / 6),
-              color: post.frontmatter.shadow,
-            }}
-          >
-            {post.frontmatter.title}
-          </h1>
-          <p
-            css={{
-              ...scale(-1 / 5),
-              display: `block`,
-              color: `${styles.colors.light}`,
-            }}
-          >
-            {post.timeToRead} min read &middot; {tagsSection}
-          </p>
-        </header>
-        <div dangerouslySetInnerHTML={{ __html: post.html }} className="post" />
-        <hr
-          css={{
-            marginBottom: rhythm(1),
-            marginTop: rhythm(2),
-          }}
-        />
-        <p
-          css={{
-            marginBottom: rhythm(4 / 4),
-            display: `flex`,
-            alignItems: `center`,
-          }}
-        >
-        <Link 
-          to="/about"
-          css = {{
-            minWidth: `60px`,
-          }}
-        >
-          <img
-            alt={`Avatar of ${post.frontmatter.author.id}`}
-            src={
-              post.frontmatter.author.avatar.children[0].responsiveResolution
-                .src
-            }
-            srcSet={
-              post.frontmatter.author.avatar.children[0].responsiveResolution
-                .srcSet
-            }
-            css={{
-              borderRadius: `100%`,
-              float: `left`,
-              marginRight: rhythm(3 / 4),
-              marginBottom: 0,
-            }}
-          />
-        </Link>
-          <span
-            css={{
-              color: styles.colors.light,
-              ...scale(-1 / 5),
-            }}
-          >
-            <Link to="/about">
-            <small
+          <header>
+            <h1
               css={{
-                fontWeight: `bold`,
-                color: styles.colors.text,
-                textTransform: `uppercase`,
+                marginBottom: rhythm(1 / 6),
+                color: post.frontmatter.shadow,
               }}
             >
-              {post.frontmatter.author.id}
-            </small>
+              {post.frontmatter.title}
+            </h1>
+            <p
+              css={{
+                ...scale(-1 / 5),
+                display: `block`,
+                color: `${styles.colors.light}`,
+              }}
+            >
+              {post.timeToRead} min read &middot; {tagsSection}
+            </p>
+          </header>
+          <div dangerouslySetInnerHTML={{ __html: post.html }} className="post" />
+          <hr
+            css={{
+              marginBottom: rhythm(1),
+              marginTop: rhythm(2),
+            }}
+          />
+          <p
+            css={{
+              marginBottom: rhythm(4 / 4),
+              display: `flex`,
+              alignItems: `center`,
+            }}
+          >
+            <Link
+              to="/about"
+              css={{
+                minWidth: `60px`,
+              }}
+            >
+              <img
+                alt={`Avatar of ${author.id}`}
+                src={
+                  author.avatar.children[0].fixed
+                    .src
+                }
+                srcSet={
+                  author.avatar.children[0].fixed
+                    .srcSet
+                }
+                css={{
+                  borderRadius: `100%`,
+                  float: `left`,
+                  marginRight: rhythm(3 / 4),
+                  marginBottom: 0,
+                }}
+              />
             </Link>
-            {` `}
-            {post.frontmatter.author.bio}
-          </span>
-        </p>
-      </div>
+            <span
+              css={{
+                color: styles.colors.light,
+                ...scale(-1 / 5),
+              }}
+            >
+              <Link to="/about">
+                <small
+                  css={{
+                    fontWeight: `bold`,
+                    color: styles.colors.text,
+                    textTransform: `uppercase`,
+                  }}
+                >
+                  {author.id}
+                </small>
+              </Link>
+              {` `}
+              {author.bio}
+            </span>
+          </p>
+        </div>
+      </Layout>
     )
   }
 }
@@ -147,22 +151,22 @@ export const pageQuery = graphql`
         title
         tags
         date(formatString: "MMMM DD, YYYY")
-        author {
-          id
-          bio
-          avatar {
-            children {
-              ... on ImageSharp {
-                responsiveResolution(
-                  width: 50
-                  height: 50
-                  quality: 75
-                  grayscale: true
-                ) {
-                  src
-                  srcSet
-                }
-              }
+      }
+    }
+    authorYaml {
+      id
+      bio
+      avatar {
+        children {
+          ... on ImageSharp {
+            fixed(
+              width: 50
+              height: 50
+              quality: 75
+              grayscale: true
+            ) {
+              src
+              srcSet
             }
           }
         }

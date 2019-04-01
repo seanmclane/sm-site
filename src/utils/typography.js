@@ -1,6 +1,6 @@
 import Typography from "typography"
 import { baseHsl, colors } from "../styles/colors"
-import presets from "../utils/presets"
+import presets from "./presets"
 
 const linkRaw = colors.link.substr(1)
 const linkHoverRaw = colors.linkHover.substr(1)
@@ -197,5 +197,6 @@ const options = {
 }
 
 const typography = new Typography(options)
+const { rhythm, scale } = typography
 
-module.exports = typography
+export { rhythm, scale, typography as default }
