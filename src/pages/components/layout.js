@@ -53,6 +53,7 @@ class DefaultLayout extends React.Component {
           <link rel="icon" type="image/png" sizes="32x32" href={f32} />
           <link rel="icon" type="image/png" sizes="96x96" href={f96} />
           <link rel="icon" type="image/png" sizes="16x16" href={f16} />
+          <meta name="viewport" content="width=device-width, initial-scale=1" />
         </Helmet>
         <div {...styles.container} {...styles.verticalPadding}>
           <Link
