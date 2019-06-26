@@ -34,17 +34,17 @@ Access to the base of our new route required fixing a hand line across a particu
 We made it up two pitches of splitter climbing before hail that looked like it was lit from underneath rolled down River Road. I fought through the one extremely muddy offwidth section then rappelled. The other 200 feet were clean off-fingers with just enough face features to place gear in the power lieback.
 
 ![](monochrome-era.JPG)
-*Monochrome Era, currently two pitches at 5.11+ C2*
+*[Monochrome Era](https://www.mountainproject.com/route/117268563/monochrome-era), currently two pitches at 5.11+ C2*
 
 ![](dirty.JPG)
 *Why is there so much sand in my eyes?*
 
 We spent the next three days at the Cliffs of Insanity in Indian Creek, expecting to traverse to the far right side of the wall to find new climbs. Yet as we hiked up the approach trail, a splitter just to the left stood out to me and it didn't match anything on Mountain Project or the book. A couple minutes later at the base, there was another anchorless fingers corner, also with the potential for multiple pitches. We stopped to pinch ourselves; we weren't dreaming.
 
-The first pitches of Ophidiophobia (the irrational fear of snakes) and ??? went up the first day. Levi and I both got ??? clean first go, but Ophidiophobia had a sequence-y crux protected by a red ball nut that I had to try twice more to free. (Seriously, go do it. It's protected by a bolt now.)
+The first pitches of Ophidiophobia (the irrational fear of snakes) and ??? To Be Named went up the first day. Levi and I both got the corner clean first go, but Ophidiophobia had a sequence-y crux protected by a red ball nut that I had to try twice more to free. (Seriously, go do it. It's protected by a bolt now.)
 
 ![](ophidiophobia.JPG)
-*Ophidiophobia, 5.11+/12- 2p, with ??? to the right*
+*[Ophidiophobia](https://www.mountainproject.com/route/117268493/ophidiophobia), 5.11+/12- 2p, with [??? To Be Named](https://www.mountainproject.com/route/117268524) to the right*
 
 The route name comes from a rattlesnake that showed up on Sunday. I heard a rattle walking along the trail and we kept an eye on him as we climbed. Unfortunately, we forgot about him as Levi was lowering me off and I landed a couple feet away to an immediate rattle and Levi's just-too-late "watch out for the snake". I jumped back immediately and swung out to safety. Sometimes a fear of snakes isn't so irrational...
 
@@ -58,11 +58,11 @@ Monday's half day only resulted in maybe the best pitch of the trip, an extensio
 As soon as it's cool enough, we'll be back for a couple FFAs and second pitches.
 
 ##FAs in this Trip Report
-12) Led Zeppelin, 5.8 70'
-13) Monochrome Era (P3+ open project), 5.11+ C2 2p 220'
-14) Ophidiophobia (P2 FFA open project), 5.11+/12- 2p 210'
-15) ??? (P2+ open project), 5.11 130'
-16) Clandestine(?) (P1 open FFA, P2+ open project), 5.12+(?) 130'
+12) [Led Zeppelin](https://www.mountainproject.com/route/117238310/led-zeppelin), 5.8 70'
+13) [Monochrome Era](https://www.mountainproject.com/route/117268563/monochrome-era) (P3+ open project), 5.11+ C2 2p 220'
+14) [Ophidiophobia](https://www.mountainproject.com/route/117268493/ophidiophobia) (P2 FFA open project), 5.11+/12- 2p 210'
+15) [??? To Be Named](https://www.mountainproject.com/route/117268524) (P2+ open project), 5.11 130'
+16) [Clandestine](https://www.mountainproject.com/route/117268590/clandestine) (P1 open FFA, P2+ open project), 5.12+(?) 130'
 
 ##30 FA Project Summary
 16 / 30 FAs on June 24, 2019. Next target is 17.5 by July 25.
