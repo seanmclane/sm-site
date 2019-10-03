@@ -5339,7 +5339,7 @@ gatsby-graphiql-explorer@^0.2.21:
   dependencies:
     "@babel/runtime" "^7.6.2"
 
-gatsby-link@^2.2.17, gatsby-link@latest:
+gatsby-link@^2.2.17:
   version "2.2.17"
   resolved "https://registry.yarnpkg.com/gatsby-link/-/gatsby-link-2.2.17.tgz#60a96418d370b46df1ddff8b8ccc32c2e57426ae"
   integrity sha512-6fLICNl0SRt2hJIU8XhEbYVAg143C0jkI6IzL18YbhY/x8M0nZMqZpSVMfnS+pAPKffon9jBraUFIlEaZlf5Bw==
@@ -5629,7 +5629,7 @@ gatsby-transformer-yaml@latest:
     lodash "^4.17.15"
     unist-util-select "^1.5.0"
 
-gatsby@^2.15.0:
+gatsby@^2.15.28:
   version "2.15.28"
   resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-2.15.28.tgz#064b49a7811838077f53056a8315c632e76ed431"
   integrity sha512-D2TlJaPL9daCKJ7yU1T/BoebZM5uaEQo+2ojZwANgY72l/WIrqTCSXH+lGbaAZJFPdZEIUQfUBlnIWrvNapTzw==
