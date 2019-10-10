@@ -145,7 +145,7 @@ class ClimbsPageRoute extends React.Component {
                     css={{
                       backgroundColor: '#5eb1b1',
                       display: 'flex',
-                      flex: 12,
+                      flex: 6,
                       color: '#fff',
                       justifyContent: 'center'
                     }}
@@ -154,17 +154,17 @@ class ClimbsPageRoute extends React.Component {
                     css={{
                       backgroundColor: '#5eb1b1',
                       display: 'flex',
-                      flex: 4,
+                      flex: 18,
                       color: '#fff',
                       justifyContent: 'center'
                     }}
                   >
-                    <span>16 / 30</span>
+                    <span>24 / 30</span>
                   </div>
                   <div
                     css={{
                       display: 'flex',
-                      flex: 14,
+                      flex: 6,
                       justifyContent: 'center'
                     }}
                   ></div>

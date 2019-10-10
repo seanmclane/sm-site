@@ -27,7 +27,9 @@ class HTML extends React.Component {
           {this.props.headComponents}
           {css}
           <style>
-            {`
+            {
+              // workaround for this https://github.com/gatsbyjs/gatsby/issues/17480
+              `
             .gatsby-resp-image-image {
               left: auto;
               width: auto;
