@@ -71,9 +71,8 @@ class AboutPageRoute extends React.Component {
               I have to do this again.
           </blockquote>
             <p>
-              In the seven years since, I've been back to altitude without issue in Peru, lead WI5 in Canada, onsighted 5.11 in the Creek, and soloed the Grand Teton in under six hours. I feel proud of those accomplishments as stepping stones to the aesthetic lines that fill my dreams.
+              In the seven years since, I've been back to altitude without issue in Peru and Nepal, lead WI5+ in Utah, onsighted 5.11 in Nevada, and soloed the Grand Teton car to car in five hours. I feel proud of those accomplishments as stepping stones to the aesthetic lines that fill my dreams.
           </p>
-
           </div>
         </div>
       </Layout>
