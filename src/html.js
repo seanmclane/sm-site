@@ -1,4 +1,4 @@
-import React from "react"
+import React, { Fragment } from "react"
 
 let stylesStr
 if (process.env.NODE_ENV === `production`) {
@@ -26,6 +26,25 @@ class HTML extends React.Component {
         <head>
           {this.props.headComponents}
           {css}
+          <style>
+            {`
+            .gatsby-resp-image-image {
+              left: auto;
+              width: auto;
+              max-width: inherit;
+            }
+            .gatsby-resp-image-wrapper + em {
+              font-size: 1rem;
+              line-height: 1.4;
+              font-family: Spectral, serif;
+              display: block;
+              text-align: right;
+              margin-top: 0.8rem;
+              margin-bottom: 1.6rem;
+              color: hsla(291, 0%, 18%,0.4);
+            }
+            `}
+          </style>
         </head>
         <body>
           <div
