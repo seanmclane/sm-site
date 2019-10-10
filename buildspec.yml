@@ -1,8 +1,9 @@
 version: 0.2
-nodejs: 10
 
 phases:
   pre_build:
+    runtime-versions:
+      nodejs: 10
     commands:
       - echo Installing yarn
       - curl -sS http://dl.yarnpkg.com/debian/pubkey.gpg | apt-key add -
@@ -14,6 +15,8 @@ phases:
       - echo Installing gatsby
       - yarn global add gatsby
   build:
+    runtime-versions:
+      nodejs: 10
     commands:
       - echo Building seanmclane.com
       - gatsby build
@@ -21,6 +24,8 @@ phases:
       - gzip -r public/
       - find public/. -name '*.gz' -type f | while read NAME ; do mv "${NAME}" "${NAME%.gz}" ; done
   post_build:
+    runtime-versions:
+      nodejs: 10
     commands:
       - echo "******** Uploading to S3 ********"
       - aws s3 rm s3://${BUCKET_NAME} --recursive

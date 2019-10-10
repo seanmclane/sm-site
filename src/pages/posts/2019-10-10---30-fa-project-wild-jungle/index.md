@@ -26,7 +26,7 @@ The rock in the Jungle can be quite loose, but generally you find solid rock und
 ![](machete.jpeg)
 *A friend TRs the new route*
 
-Levi's less-than-burly hammer drill had done well enough in sandstone, but was no match for the bullet tuff at the Jungle. Luckily a friend let us borrow his very nice drill the following day, which made the couple protection bolts go in in no time. Levi was convinced enough to order a drill right from the crag. We both sent [Bring the Machete](https://www.mountainproject.com/route/117323808/bring-the-machete), then went to find our friends.
+Levi's less-than-burly hammer drill had done well enough in sandstone, but was no match for the bullet tuff at the Jungle. Luckily a friend let us borrow his very nice drill the following day, which made the couple protection bolts go in in no time. Levi was convinced enough to order a drill right from the crag. We both sent [Bring the Machete](https://www.mountainproject.com/route/117323808/bring-the-machete), climbing across the stair-step edges, up the tips crack, through the hollow flakes, and finally into the hands roof.
 
 ##More Drill Shenanigans
 
