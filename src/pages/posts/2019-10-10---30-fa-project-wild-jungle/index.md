@@ -13,7 +13,7 @@ tags:
   - challenge
 ---
 
-*It is somewhat hard to condense four months of climbing and a third of my FAs into a a couple hundred words, but I'm going to try anyway. I'll also repeat my disclaimer from my Wild Granites post: These are all likely FAs with no evidence of previous passage and much cleaning (except for P1 of Sword of Wotan). Please reach out if you have information on the history and established climbs of the Wild Granites.*
+*It's somewhat hard to condense four months of climbing and a third of my FAs into a a couple hundred words, but I'm going to try anyway. I'll also repeat my disclaimer from my Wild Granites post: These are all likely FAs with no evidence of previous passage and much cleaning (except for P1 of Sword of Wotan). Please reach out if you have information on the history and established climbs of the Wild Granites.*
 
 ##Jungle on the Aquarius Plateau
 
