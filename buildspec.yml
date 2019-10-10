@@ -1,4 +1,5 @@
 version: 0.2
+nodejs: 10
 
 phases:
   pre_build:
