@@ -1,7 +1,7 @@
 version: 0.2
 
 phases:
-  pre_build:
+  install:
     runtime-versions:
       nodejs: 10
     commands:
@@ -15,8 +15,6 @@ phases:
       - echo Installing gatsby
       - yarn global add gatsby
   build:
-    runtime-versions:
-      nodejs: 10
     commands:
       - echo Building seanmclane.com
       - gatsby build
@@ -24,8 +22,6 @@ phases:
       - gzip -r public/
       - find public/. -name '*.gz' -type f | while read NAME ; do mv "${NAME}" "${NAME%.gz}" ; done
   post_build:
-    runtime-versions:
-      nodejs: 10
     commands:
       - echo "******** Uploading to S3 ********"
       - aws s3 rm s3://${BUCKET_NAME} --recursive
