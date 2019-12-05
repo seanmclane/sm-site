@@ -145,29 +145,13 @@ class ClimbsPageRoute extends React.Component {
                     css={{
                       backgroundColor: '#5eb1b1',
                       display: 'flex',
-                      flex: 6,
-                      color: '#fff',
-                      justifyContent: 'center'
-                    }}
-                  ></div>
-                  <div
-                    css={{
-                      backgroundColor: '#5eb1b1',
-                      display: 'flex',
-                      flex: 18,
+                      flex: 1,
                       color: '#fff',
                       justifyContent: 'center'
                     }}
                   >
-                    <span>24 / 30</span>
+                    <span>30 / 30</span>
                   </div>
-                  <div
-                    css={{
-                      display: 'flex',
-                      flex: 6,
-                      justifyContent: 'center'
-                    }}
-                  ></div>
                 </li>
               </ul>
               <hr
