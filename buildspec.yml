@@ -13,7 +13,7 @@ phases:
       - echo Installing node_modules
       - yarn install
       - echo Installing gatsby
-      - yarn global add gatsby
+      - yarn global add gatsby@2.15.35
   build:
     commands:
       - echo Building seanmclane.com
