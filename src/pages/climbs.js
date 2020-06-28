@@ -100,58 +100,10 @@ class ClimbsPageRoute extends React.Component {
                   <Metric metric="Hardest Rock Lead" value="5.12-" />
                 </li>
                 <li>
-                  <Metric metric="Hardest Ice Lead" value="WI5+" />
+                  <Metric metric="Hardest Ice Lead" value="WI6" />
                 </li>
                 <li>
-                  <Metric metric="Hardest Mixed Lead" value="M6" />
-                </li>
-              </ul>
-              <hr></hr>
-              <ul
-                css={{
-                  textDecoration: `none`,
-                  marginBottom: rhythm(3 / 5),
-                  marginLeft: `0`,
-                  display: `flex`,
-                  flexDirection: 'row',
-                  flexWrap: `wrap`,
-                  justifyContent: `space-around`,
-                  listStyle: `none`,
-                }}
-              >
-                <h5
-                  css={{
-                    fontSize: `0.8em`,
-                    fontWeight: `400`,
-                    textTransform: `uppercase`,
-                    textAlign: `center`,
-                    color: styles.colors.link,
-                    marginBottom: rhythm(3 / 5),
-                    width: '100%'
-                  }}
-                >30 FA Project</h5>
-                <li
-                  css={{
-                    textAlign: 'center',
-                    borderColor: '#ccc',
-                    borderWidth: '1px',
-                    borderStyle: 'solid',
-                    display: `flex`,
-                    flexDirection: 'row',
-                    flex: 1
-                  }}
-                >
-                  <div
-                    css={{
-                      backgroundColor: '#5eb1b1',
-                      display: 'flex',
-                      flex: 1,
-                      color: '#fff',
-                      justifyContent: 'center'
-                    }}
-                  >
-                    <span>30 / 30</span>
-                  </div>
+                  <Metric metric="Hardest Mixed Lead" value="M6+" />
                 </li>
               </ul>
               <hr
