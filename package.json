@@ -29,7 +29,7 @@
     "gatsby-transformer-sharp": "^2.2.21",
     "gatsby-transformer-yaml": "^2.2.13",
     "glamor": "^2.20.40",
-    "lodash": "^4.17.13",
+    "lodash": "^4.17.19",
     "lodash-id": "^0.14.0",
     "lodash-webpack-plugin": "^0.11.2",
     "prismjs": "^1.15.0",
