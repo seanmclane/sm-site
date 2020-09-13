@@ -63,16 +63,6 @@ class AboutPageRoute extends React.Component {
               </li>
 
             </ul>
-
-            <p>
-              In 2012, I happened into an expedition to a trekking peak in Nepal, the sort of guided, commercial tourist trap everyone likes to rag on. Without prior climbing experience, I found myself staring at Everest from 6119m. The euphoria lasted only a moment before the crackling and wheezing kicked in. "HAPE. Get down," I thought. My sherpa-diagnosed "head cold" did not fully recover until I walked into the medical clinic at Pheriche (4371m). "You probably had HAPE, but it cleared up on descent." "Great..." A sobering experience to be sure and a reminder that I could only truly rely on myself. But I couldn't get the thought out of my head...
-          </p>
-            <blockquote>
-              I have to do this again.
-          </blockquote>
-            <p>
-              In the seven years since, I've been back to altitude without issue in Peru and Nepal, lead WI5+ in Utah, onsighted 5.11 in Nevada, and soloed the Grand Teton car to car in five hours. I feel proud of those accomplishments as stepping stones to the aesthetic lines that fill my dreams.
-          </p>
           </div>
         </div>
       </Layout>
