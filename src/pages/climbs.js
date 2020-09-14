@@ -54,8 +54,8 @@ class ClimbsPageRoute extends React.Component {
 
     Object.keys(rawClimbSummary[this.state.type]).forEach((grade) => {
       let g = [rawClimbSummary[this.state.type][grade]]
-      //for all years in data 2012-2019
-      for (let i = 0; i < 8; i++) {
+      //for all years in data 2012-2020
+      for (let i = 0; i < 9; i++) {
         g[0][i]['label'] = `${grade} (${g[0][i]['count']})`
       }
       dataset.push(g)
@@ -103,7 +103,7 @@ class ClimbsPageRoute extends React.Component {
                   <Metric metric="Hardest Ice Lead" value="WI6" />
                 </li>
                 <li>
-                  <Metric metric="Hardest Mixed Lead" value="M6+" />
+                  <Metric metric="Hardest Mixed Lead" value="M8" />
                 </li>
               </ul>
               <hr
@@ -138,8 +138,8 @@ class ClimbsPageRoute extends React.Component {
                   tickFormat={(count) => count}
                 />
                 <VictoryAxis
-                  tickFormat={['2012', '2013', '2014', '2015', '2016', '2017', '2018', '2019']}
-                  tickValues={[1, 2, 3, 4, 5, 6, 7, 8]}
+                  tickFormat={['2012', '2013', '2014', '2015', '2016', '2017', '2018', '2019', '2020']}
+                  tickValues={[1, 2, 3, 4, 5, 6, 7, 8, 9]}
                 />
               </VictoryChart>
               <h3
@@ -154,6 +154,7 @@ class ClimbsPageRoute extends React.Component {
                   css={{ minWidth: '8em' }}
                   value={this.state.type}
                   onChange={e => this.setState({ type: e.target.value })}
+                  onBlur={e => this.setState({ type: e.target.value })}
                 >
                   <option value='rock'>Rock</option>
                   <option value='ice'>Ice</option>
