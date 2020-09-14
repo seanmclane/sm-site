@@ -118,6 +118,7 @@ Currently, five months out, I feel 75% better. There is always an underlying sti
 - Time from injury to artery healed and off blood thinners = climbing: 12 weeks
 - Time from injury to Grand Teton summit: 13 weeks
 - Time from injury to Grand Teton car-to-car: 16 weeks
+- Total cost before insurance: ~$120,000
 
 ![](progress10.JPG)
 *Medial incision five months post-op*
