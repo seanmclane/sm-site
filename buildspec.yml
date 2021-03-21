@@ -5,8 +5,6 @@ phases:
     runtime-versions:
       nodejs: 12
     commands:
-      - echo Installing yarn
-      - apt-get install -y yarn
       - echo Installing node_modules
       - yarn install
       - echo Installing gatsby
